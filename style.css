@@ -186,3 +186,39 @@ header{
 {
     margin-right: 20px;
 }
+
+
+@media (max-width:991px)
+{
+    .main{
+        padding: 40px;
+    }
+    header{
+        padding: 20px 40px;
+    }
+    .logo{
+        max-width: 70px;
+    }
+    .content{
+        flex-direction: column;
+        margin-top: 120px 0 40px;
+    }
+    .content .text{
+        max-width: 100%;
+    }
+    .content .text h2{
+        font-size: 4em;
+    }
+    .slider .slides img{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        padding: 0;
+    }
+
+    .navigator{
+        display: none;
+    }
+    
+}

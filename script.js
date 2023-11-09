@@ -1,4 +1,15 @@
 
+// toggle 
+
+// const menutoggle = document.querySelector('.toggle');
+// menutoggle.onclick = function(){
+//     menutoggle.classList.toggle('active')
+// }
+
+
+
+// slider
+
 const slides = document.querySelectorAll('.slides');
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
