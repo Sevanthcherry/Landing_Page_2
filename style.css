@@ -44,9 +44,18 @@ header{
 
 .navigation li a {
     position: relative;
-    color: #fff;
+    color: #d10a20;
+    padding: 12px 15px;
+    background: #fff;
     text-decoration: none;
     margin-left: 40px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+
+.navigation li a:hover{
+    color: #fff;
+    background: none;
 }
 
 .content{
@@ -208,6 +217,7 @@ header{
     }
     .content .text h2{
         font-size: 4em;
+        margin-top: 40px;
     }
     .slider .slides img{
         width: 100%;
